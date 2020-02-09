@@ -11,6 +11,9 @@ public class RoutersGraph {
     private List<Link> links;
     private boolean isIncorrectGraph;
 
+    /**
+     * set start values for fields
+     */
     {
         unusedRouters = new LinkedList<Router>();
         usingRouters = new LinkedList<Router>();
